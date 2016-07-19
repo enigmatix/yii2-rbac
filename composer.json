@@ -1,0 +1,25 @@
+{
+  "name": "enigmatix/yii2-rbac",
+  "description": "Yii2 RBAC helper",
+  "keywords": [
+    "yii2",
+    "rbac",
+    "helper"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joel Small",
+      "email": "joel.small@biscon.com.au"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "enigmatix\\yii2rbac\\": ""
+    }
+  }
+}
