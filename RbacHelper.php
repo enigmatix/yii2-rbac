@@ -118,6 +118,11 @@ class RbacBuilder extends Object
     }
 
     /**
+     * Add rules by providing a rule name and a className for the Yii2 rule object.
+     *
+     *      RbacBuilder::addRules([
+     *          ['notGuest' => GuestRule::className()]
+     *      ]);
      * @param array $rules adds multiple rules at once
      */
     static function addRules(array $rules){
