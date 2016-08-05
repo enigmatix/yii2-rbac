@@ -13,10 +13,10 @@ use yii\base\Object;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 /**
- * Class RbacBuilder
+ * Class RbacHelper
  * @package enigmatix\yii2rbac
  */
-class RbacBuilder extends Object
+class RbacHelper extends Object
 {
 
     /**
